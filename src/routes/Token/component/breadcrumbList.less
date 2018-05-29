@@ -1,0 +1,31 @@
+.wrap{
+  border-bottom: solid 1px #eee;
+  background: url(../../../assets/breadcrumbs.png);
+  overflow: auto;
+}
+.container{
+  max-width:1300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding:8px 30px;
+  overflow: auto;
+
+  .title{
+    margin-bottom: 0;
+    padding-top:10px;
+    padding-bottom: 10px;
+    float: left;
+    color:#777;
+    font-size: 22px;
+  }
+  &>span{
+    display: inline-block;
+    float: right;
+    margin-top: 14px;
+    :global {
+      .ant-breadcrumb{
+        font-size: 13px;
+      }
+    }
+  }
+}

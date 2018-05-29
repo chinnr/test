@@ -1,0 +1,30 @@
+.Transaction{
+  width: 100%;
+  background-color: #fff;
+  border-bottom:5px solid #f7f7f7;
+  padding: 20px 14px;
+  & > span{
+    float: left;
+    color:#999;
+    padding: 5px 12px;
+  }
+  .TransactionRight{
+    overflow: hidden;
+    height: 100%;
+    padding-left: 10px;
+    & > p{
+      margin: 6px 0px;
+      & > span{
+        display: inline-block;
+        float: right;
+      }
+    }
+    .addressLink{
+      width: 140px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      display: inline-block;
+      vertical-align: bottom;
+    }
+  }
+}
